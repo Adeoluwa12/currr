@@ -11,7 +11,7 @@
    <p><span class="span"><%= convertedAmount %> <%= selectedCurrency %> </span>is now to be converted to <span class="span">20 </span> different currencies</p>
 
 
-   <form action="/user/dashboard/autofinalconvert" method="post">
+   <form action="/user/dashboard/finalconvert" method="post">
     <input type="hidden" name="selectedCurrency" value="<%= selectedCurrency %>">
     <input type="hidden" name="convertedAmount" value="<%= convertedAmount %>">
     <label for="selectedCurrencies">Select up to 20 Currencies for Conversion:</label>
